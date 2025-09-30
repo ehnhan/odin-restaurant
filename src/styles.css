@@ -53,3 +53,37 @@ h1 {
 .item_price {
     text-align: right;
 }
+
+.home_area {
+    display: grid;
+    gap: 15px;
+}
+
+.home_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+img {
+    height: 100px;
+}
+
+.home_info_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 300px;
+}
+
+.description_container, .hours_container, .location_container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
