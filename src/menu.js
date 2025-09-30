@@ -10,6 +10,8 @@ class MenuItem {
 
     createHtml() {
         let item = document.createElement("div");
+        item.className = "menu_item"
+
         let itemName = document.createElement("h2");
         itemName.innerText = this.name;
         
@@ -17,7 +19,9 @@ class MenuItem {
         itemDescription.innerText = this.description
         
         let itemPrice = document.createElement("div");
+
         itemPrice.innerText = `$${this.price}`;
+        itemPrice.className = "item_price"
 
         item.appendChild(itemName);
         item.appendChild(itemDescription);
@@ -42,11 +46,13 @@ const menuItems = parseMenu();
 
 const createMenu = function() {
     const menu = document.createElement("div");
+    menu.className = "menu_area"
     const header = document.createElement("h1");
     header.innerText = "Menu";
     menu.appendChild(header);
 
     const items = document.createElement("div");
+    items.className = "menu_items"
     menuItems.forEach(item => {
         let itemHTML = item.createHtml();
         items.appendChild(itemHTML);

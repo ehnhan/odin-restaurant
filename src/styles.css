@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:aquamarine;
+    background-color:rgb(51, 190, 178);
 }
 
 nav {
@@ -20,5 +20,36 @@ button {
     font-weight: bold;
     border-radius: 15px;
     padding: 10px 15px;
-    margin: 15px;
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    font-size: 50px;
+}
+
+.menu_area {
+    display: grid;
+    gap: 50px;
+}
+
+.menu_items {
+    display: grid;
+    gap: 50px;
+    justify-items: center;
+}
+
+.menu_item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+}
+
+.item_price {
+    text-align: right;
 }
