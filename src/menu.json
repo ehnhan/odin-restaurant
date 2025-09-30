@@ -1,0 +1,19 @@
+{
+    "menu":[
+        {
+            "name":"Salad",
+            "description":"Fresh veggies, choice of dressing.",
+            "price":"7.99"
+        },
+        {
+            "name":"Steak",
+            "description":"Grilled to prefection, served with mashed potatoes and roasted veggies",
+            "price":"20.99"
+        },
+            {
+            "name":"Fish of the Day",
+            "description":"Alway fresh and caught locally",
+            "price":"19.99"
+        }
+    ]
+}
