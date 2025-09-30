@@ -70,7 +70,7 @@ img {
     height: 100px;
 }
 
-.home_info_area {
+.home_info_area, .about_info_area {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +78,11 @@ img {
     padding: 0 300px;
 }
 
-.description_container, .hours_container, .location_container {
+.description_container, .hours_container, .location_container, .contact_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
     background-color: white;
     border-radius: 15px;
     padding: 30px;
